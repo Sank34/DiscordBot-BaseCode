@@ -1,0 +1,6 @@
+{
+  "hello": "Example for a variable in json",
+  "prefix": "Your prefix here",
+  "token": "Your Token bot here",
+  "status": "Your status here"
+}

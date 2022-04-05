@@ -1,0 +1,17 @@
+{
+  "name": "discord.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Sanke",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "djs-chatbot": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.2.3"
+  }
+}
