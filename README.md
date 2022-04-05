@@ -1,1 +1,2 @@
-# DiscordBot-CodeBase
+# DiscordBot-BaseCode
+###### soon
