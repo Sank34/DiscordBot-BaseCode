@@ -80,5 +80,5 @@ NOTE : To see the token, click "Reset token", you can see it one time after you 
 
 }
 ```
-### This was the configuration for the code, if you still need help, consider joining our discord server and open a ticket. Thanks!
+### This was the configuration for the code, if you still need help, consider joining our discord server and opening a ticket. Thanks!
 [![discord](https://img.shields.io/badge/discord-join%20our%20server-5865F2.svg?style=flat-square&logo=discord)](https://discord.com/invite/26vT9wt3n3)
