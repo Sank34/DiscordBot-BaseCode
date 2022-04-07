@@ -23,25 +23,33 @@ Just enter and open a ticket so you can let us know what is your problem and hel
 - For creating a token,you'll need first to make an application. How? Don't worry, we got you!
 ### First steps
 - Go to [Discord developer portal](https://discord.com/developers/applications),should look something like this:
-<img src="applications.png" alt="Applications" style="height: 300px; width:500px;"/>
+
+<img src="resources/applications.png" alt="Applications" style="height: 300px; width:500px;"/>
 
 - Create a new application, click on the "New Application" button
-<img src="newapp.png" alt="New application" style="height: 200px; width:600px;"/>
+
+<img src="resources/newapp.png" alt="New application" style="height: 150px; width:600px;"/>
 
 - Give it a brilliant name 😎(eventually put a photo as the app pfp)
-<img src="name.png" alt="Name" style="height: 400px; width:500px;"/>
+
+<img src="resources/name.png" alt="Name" style="height: 400px; width:500px;"/>
 
 - Now it's time to create the token, go to the bot section
-<img src="list.png" alt="Bot" style="height: 400px; width:400px;"/>
+
+<img src="resources/list.png" alt="Bot" style="height: 400px; width:400px;"/>
 
 - Click "Add bot" and agree
-<img src="botcr.png" alt="The bot" style="height: 350px; width:800px;"/>
+
+<img src="resources/botcr.png" alt="The bot" style="height: 350px; width:800px;"/>
 
 - Now it should look like this
-<img src="newn.png" alt="BOT" style="height: 300px; width:500px;"/>
+
+<img src="resources/newn.png" alt="BOT" style="height: 300px; width:500px;"/>
 
 - To make the code work, you'll need to check the intents from the dashboard
-<img src="intents.png" alt="intents" style="height: 300px; width:500px;"/>
+
+<img src="resources/intents.png" alt="intents" style="height: 300px; width:500px;"/>
+
 NOTE : To see the token, click "Reset token", you can see it one time after you reset the token.
 
 - For inviting the bot, you'll need to make the invite link.
