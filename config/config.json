@@ -1,6 +1,16 @@
 {
   "hello": "Example for a variable in json",
   "prefix": "Your prefix here",
-  "token": "Your Token bot here",
-  "status": "Your status here"
+  "token": "Your token here",
+  "status": "Your status here",
+  "ConsoleLogs":{
+    "Startup": "Startup message",
+    "ErrorActivateCMD": "Your error message"
+  },
+  "credits":{
+    "DjDev": "Made by DjDev", 
+    "TurtleDev": "Made by TurtleDev",
+    "both": "Made by ScienceTurtles Team"
+  }
+
 }
