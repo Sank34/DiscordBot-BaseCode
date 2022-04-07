@@ -1,7 +1,9 @@
-const { Client,Intents } =  require("discord.js")
-const { token } = require("./config/config.json")
+const { Client,Intents } = require("discord.js")
+const token = require("./config/config.json").token
 const fs = require('fs')
 const status = require("./config/config.json").status
+const startup = require("./config/config.json").ConsoleLogs.Startup
+const error = require("./config/config.json").ConsoleLogs.ErrorActivateCMD
 
 //Client init
 const client = new Client({ intents: [
@@ -13,8 +15,8 @@ const client = new Client({ intents: [
 exports.client = client
 
 
-client.once('ready', () => {
-    console.log("Systems OPERATIONALS")
+client.on('ready', () => {
+    console.log(startup)
     client.user.setActivity(status)
 })
 
@@ -25,7 +27,7 @@ fs.readdirSync("./commands").forEach((file) => {
     try {
       command()
     } catch {
-      console.log("Couldn't activate the file")
+      console.log(error)
     }
 })
 client.login(token)
