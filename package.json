@@ -10,8 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.6.0",
-    "djs-chatbot": "^1.0.1",
-    "fs": "^0.0.1-security",
-    "node-fetch": "^3.2.3"
+    "fs": "^0.0.1-security"
   }
 }
