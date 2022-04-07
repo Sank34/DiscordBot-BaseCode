@@ -8,7 +8,7 @@ const credits = require("../config/config.json").credits.both
 module.exports = () => {
 
 	client.on("messageCreate",(msg) => {
-		if (msg.content != "!test") return
+		if (msg.content != `${prefix}test`) return
 
 		var testrow = new discord.MessageActionRow()
 			.addComponents(
